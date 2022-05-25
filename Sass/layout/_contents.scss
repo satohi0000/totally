@@ -1,2 +1,13 @@
 .l-contents {
+  margin: 0 auto;
+  max-width: 800px;
+  &__article {
+    display: flex;
+    &__picture {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
