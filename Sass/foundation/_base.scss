@@ -3,10 +3,7 @@ body {
   font-family: "Crimson Pro", serif;
   color: #333333;
   list-style: none;
-  a,
-  a:visited,
-  a:hover,
-  a:active {
+  a {
     color: inherit;
   }
   h1 {
@@ -16,5 +13,9 @@ body {
   li {
     font-size: 12px;
     padding-right: 14px;
+  }
+  p {
+    font-weight: normal;
+    font-size: 12px;
   }
 }
