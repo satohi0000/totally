@@ -1,6 +1,7 @@
 .l-header {
   margin: 0 auto;
   max-width: 800px;
+  padding: 0 100px;
   padding-bottom: 26px;
   border-bottom: solid 1px #c3c3c3;
 
@@ -8,7 +9,7 @@
     width: 109px;
     height: 19px;
     margin: 0 auto;
-    padding: 46px 0;
+    padding: 46px 0 34px 0;
     img {
       width: 100%;
     }
@@ -19,6 +20,9 @@
     &_left,
     &_right {
       display: flex;
+    }
+    &_right {
+      padding-left: 303px;
     }
   }
 }

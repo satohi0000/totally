@@ -1,18 +1,19 @@
 body {
   background: #ffffff;
-  font-family: "Crimson Pro", serif;
-  color: #333333;
+  font-family: "Raleway", serif;
+  font-size: 0.75rem;
+  color: #333;
   list-style: none;
   a {
     color: inherit;
   }
   h1 {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 900;
   }
   li {
-    font-size: 12px;
     padding-right: 14px;
+    font-size: 0.75rem;
   }
   p {
     font-weight: normal;
