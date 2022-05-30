@@ -1,7 +1,7 @@
 body {
   background: #ffffff;
   font-family: "Raleway", serif;
-  font-size: 0.75rem;
+
   color: #333;
   list-style: none;
   a {
@@ -17,6 +17,10 @@ body {
   }
   p {
     font-weight: normal;
-    font-size: 12px;
+    font-size: 0.75rem;
+  }
+  th,
+  td {
+    font-size: 0.75rem;
   }
 }
