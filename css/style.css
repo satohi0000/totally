@@ -208,6 +208,12 @@ select {
   padding-top: 50px;
 }
 
+@media (max-width: 896px) {
+  .l-contents {
+    padding-top: 0;
+  }
+}
+
 .l-contents__article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,8 +221,24 @@ select {
   padding-left: 10px;
 }
 
+@media (max-width: 896px) {
+  .l-contents__article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 0;
+  }
+}
+
 .l-contents__article__picture {
   width: 50%;
+}
+
+@media (max-width: 896px) {
+  .l-contents__article__picture {
+    width: 100%;
+  }
 }
 
 .l-contents__article__picture img {
@@ -225,6 +247,12 @@ select {
 
 .l-contents__article__1 {
   padding-left: 62px;
+}
+
+@media (max-width: 896px) {
+  .l-contents__article__1 {
+    padding: 6px 16px;
+  }
 }
 
 .l-contents__article__1__title {
@@ -242,6 +270,12 @@ select {
 
 .l-contents__article__1__value {
   padding: 22px 0;
+}
+
+@media (max-width: 896px) {
+  .l-contents__article__1__value {
+    padding: 26px 0;
+  }
 }
 
 .l-contents__article__1__item {
@@ -289,6 +323,12 @@ select {
   margin-bottom: 30px;
   text-align: center;
   font-size: 0.75rem;
+}
+
+@media (max-width: 896px) {
+  .l-contents__article__1__button {
+    margin-top: 26px;
+  }
 }
 
 .l-contents__article__1__button a:hover {
@@ -489,11 +529,17 @@ select {
   text-align: center;
 }
 
+@media (max-width: 896px) {
+  .l-footer {
+    padding: 100px 0 10px 7px;
+  }
+}
+
 .l-header {
   margin: 0 auto;
   max-width: 1000px;
   margin: 0 auto;
-  padding-bottom: 26px;
+  padding-bottom: 17px;
   border-bottom: solid 1px #c3c3c3;
 }
 
@@ -501,6 +547,12 @@ select {
   width: 109px;
   margin: 0 auto;
   padding: 46px 0px 32px 16px;
+}
+
+@media (max-width: 896px) {
+  .l-header_logo {
+    padding: 37px 0px 21px 0px;
+  }
 }
 
 .l-header_logo img {
@@ -517,6 +569,12 @@ select {
   max-width: 800px;
   margin: 0 auto;
   padding-left: 15px;
+}
+
+@media (max-width: 896px) {
+  .l-header_menu {
+    overflow-x: scroll;
+  }
 }
 
 .l-header_menu_left, .l-header_menu_right {

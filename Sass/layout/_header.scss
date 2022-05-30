@@ -2,13 +2,16 @@
   margin: 0 auto;
   max-width: 1000px;
   margin: 0 auto;
-  padding-bottom: 26px;
+  padding-bottom: 17px;
   border-bottom: solid 1px #c3c3c3;
 
   &_logo {
     width: 109px;
     margin: 0 auto;
     padding: 46px 0px 32px 16px;
+    @include tab {
+      padding: 37px 0px 21px 0px;
+    }
     img {
       width: 100%;
     }
@@ -19,6 +22,9 @@
     max-width: 800px;
     margin: 0 auto;
     padding-left: 15px;
+    @include tab {
+      overflow-x: scroll;
+    }
     &_left,
     &_right {
       display: flex;

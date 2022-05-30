@@ -1,5 +1,8 @@
 .l-footer {
   padding: 107px 0 10px 7px;
+  @include tab {
+    padding: 100px 0 10px 7px;
+  }
   width: 100%;
   text-align: center;
 }
